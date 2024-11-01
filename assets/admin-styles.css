@@ -1,0 +1,34 @@
+.share-one-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.share-one-setting {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.share-one-setting label {
+    font-weight: bold;
+}
+
+.share-one-setting input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.share-one-setting-with-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.share-one-setting input[type="checkbox"] {
+    margin-top: 8px;
+    float: left;
+}
